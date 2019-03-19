@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.6)
+file(GLOB HEADER_FILES *.hpp *.h)
+file(GLOB CPP_FILES *.cpp *.c)
+file(GLOB GLSL_FILES *.glsl)
+#add_executable(Test main.cpp header.hpp)
+add_executable(Test ${HEADER_FILES} ${CPP_FILES} ${GLSL_FILES})
+
+source_group("CPP Files" FILES ${CPP_FILES})
+source_group("HEADER Files" FILES ${HEADER_FILES})
+source_group("Shader" FILES ${GLSL_FILES})
