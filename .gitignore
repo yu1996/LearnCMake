@@ -9,3 +9,9 @@
 *.db-shm
 *.db-wal
 *.cmake
+*.obj
+*.tlog
+*.log
+*.pdb
+*.ilk
+*.lib
