@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+file(GLOB HEADER_FILES *.hpp *.h)
+file(GLOB CPP_FILES *.cpp *.c)
+#add_executable(Test main.cpp header.hpp)
+add_executable(Test ${HEADER_FILES} ${CPP_FILES})
