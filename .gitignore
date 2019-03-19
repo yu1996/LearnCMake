@@ -1,0 +1,11 @@
+
+*.db
+*.opendb
+*.ipch
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.db-shm
+*.db-wal
+*.cmake
